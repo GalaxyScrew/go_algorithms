@@ -4,7 +4,7 @@ import "fmt"
 
 var Max_int int = 9999
 
-//dijkstra是要点是遍历源点与其它点的距离数组，每次选取数组里的最小值且不重复选取，
+//dijkstra的要点是遍历源点与其它点的距离数组，每次选取数组里的最小值且不重复选取，
 //由选取到的最小值去更新距离数组
 //（更新规则是源点经由最小值点去其它点的距离小于原来的就更新）
 func dijkstra(arc [][]int, n int, start int) ([]int, [][]int){
